@@ -4,6 +4,9 @@ function analyzePurchases(purchases, priceLimit) {
     return price > limit;
   }
 
+//suite ...///
+
+
   function addCategoryCount(counts, category) {
     counts[category] ? counts[category]++ : counts[category] = 1;
   
